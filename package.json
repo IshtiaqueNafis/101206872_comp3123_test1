@@ -4,9 +4,15 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "question1": "nodemon ./question1/question1.js",
+    "question2": "nodemon ./question2/question2.js",
+    "question3": "nodemon ./question3/question3.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^2.0.13"
+  }
 }
